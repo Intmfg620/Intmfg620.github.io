@@ -1,0 +1,156 @@
+body {
+    color: #fff;
+    font-family: "Oswald";
+}
+
+h3 {
+    line-height: 1.5;
+    margin: auto 0;
+}
+
+h2 {
+    font-family: "Oswald";
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+
+h1 {
+    font-family: "Oswald";
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+/* Top Navigation Section */
+
+.header-section {
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: .1rem;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 8%;
+    padding: 0;
+    width: max-content;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.top-navbar {
+    padding: 0;
+
+}
+
+.top-nav-link {
+    color: black;
+    font-size: medium;
+}
+
+.top-nav-link:hover {
+    background-color: #255C99;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Hero Section */
+
+
+.banner-section {
+    padding: 0;
+    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.title {
+    margin-top: 8%;
+    background-color: #255C99;
+    opacity: 90%;
+}
+
+.banner-row {
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+.hero-des {
+    margin: 3% auto 0;
+}
+
+/* Bottom Navigation Section */
+
+.btm-navbar {
+    background-color: #255C99;
+    border-radius: 0 0 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    -webkit-box-shadow: 0 8px 6px -6px #666A86;
+    -moz-box-shadow: 0 8px 6px -6px #666A86;
+    box-shadow: 0 8px 6px -6px #666A86;
+}
+
+/* Categories Section */
+
+.categories-section {
+    background-color: #fff;
+}
+
+.product-cards {
+    text-align: center;
+    margin: 5% auto 0;
+}
+
+.cards {
+    padding: 0;
+}
+
+.card {
+    border-color: black;
+    -webkit-box-shadow: 0 8px 6px -6px #666A86;
+    -moz-box-shadow: 0 8px 6px -6px #666A86;
+    box-shadow: 0 8px 6px -6px #666A86;
+}
+
+
+.bottom-btn {
+    background-color: #255C99;
+    margin-bottom: 5%;
+}
+
+.card-btn {
+    margin: 0;
+    background-color: #255C99;
+    border-radius: 0;
+}
+
+.card-btn:hover,
+.bottom-btn:hover {
+    background-color: #666A86;
+}
+
+.card-footer {
+    padding: 0;
+}
+
+.categorie {
+    margin: 5% auto;
+}
+
+/* About us section */
+
+.about-us-section {
+    padding: 5%;
+    text-align: center;
+    background-color: #255C99;
+}
+
+/* Footer Section */
+
+.footer-section {
+    padding: 3% 5%;
+    color: black;
+    text-align: center;
+}
