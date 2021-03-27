@@ -92,6 +92,17 @@ h1 {
     box-shadow: 0 8px 6px -6px #666A86;
 }
 
+.btm-nav-link {
+    border-radius: 5px;
+}
+
+.btm-nav-link:hover,
+.btm-nav-link:focus,
+.btm-nav-link:active {
+    background-color: #fff;
+
+}
+
 /* Categories Section */
 
 .categories-section {
@@ -114,12 +125,6 @@ h1 {
     box-shadow: 0 8px 6px -6px #666A86;
 }
 
-
-.bottom-btn {
-    background-color: #255C99;
-    margin-bottom: 5%;
-}
-
 .card-btn {
     margin: 0;
     background-color: #255C99;
@@ -136,7 +141,7 @@ h1 {
 }
 
 .categorie {
-    margin: 5% auto;
+    margin: 0 0 5%;
 }
 
 /* About us section */
@@ -150,7 +155,20 @@ h1 {
 /* Footer Section */
 
 .footer-section {
-    padding: 3% 5%;
+    padding: 2% 5%;
     color: black;
     text-align: center;
+}
+
+.bottom-btn {
+    background-color: #255C99;
+    margin-bottom: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us {
+    line-height: 1.5;
+    padding: 0 10%;
 }

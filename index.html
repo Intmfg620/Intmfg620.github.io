@@ -77,77 +77,387 @@
 
             <div class="container">
 
-                <nav class="navbar  btm-navbar navbar-expand-lg navbar-light">
+                <nav class="navbar sticky-top  btm-navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="#">General Assembly</a>
+                        <ul class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <li class="nav-item">
+                                <a class="nav-link btm-nav-link" data-target="#categories-slide" data-slide-to="0"
+                                    href="#">General
+                                    Assembly</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">Intelligent Fastening</a>
+                                <a class="nav-link btm-nav-link" data-target="#categories-slide" data-slide-to="1"
+                                    href="#">Intelligent Fastening</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link btm-nav-link" data-target="#categories-slide" data-slide-to="2"
+                                    href="#">Robotic
+                                    Systems</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Auditing</a>
+                                <a class="nav-link btm-nav-link" data-target="#categories-slide" data-slide-to="3"
+                                    href="#">Auditing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Accessories</a>
+                                <a class="nav-link btm-nav-link" data-target="#categories-slide" data-slide-to="4"
+                                    href="#">Accessories</a>
                             </li>
                         </ul>
                     </div>
+
                 </nav>
 
-                <div class="row product-cards">
+                <div id="categories-slide" class="carousel slide carousel-fade" data-touch="false"
+                    data-interval="false">
+                    <div class="carousel-inner">
 
-                    <div class="col-lg-3 col-md-4 col-6 categorie">
-                        <div class="card text-center">
-                            <img class="card-img-top"
-                                src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_08.jpg" alt="">
+                        <!-- General Assembly -->
 
-                            <div class="card-footer">
-                                <a href="#" class="btn card-btn btn-lg btn-block">Manual Torque Tools</a>
+                        <div class="carousel-item active">
+                            <div class="row product-cards">
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.intmfg.com/wp-content/uploads/2019/04/gedore_sq_06.jpg"
+                                            alt="">
+
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Manual Torque Tools</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/bosch_sq_03.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Electric Torque
+                                                Drivers</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/desoutter_sq_08.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Pneumatic Torque
+                                                Drivers</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/panasonic_sq_07.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Impact & Pulse Drivers</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/norbar_sq_02.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">High Torque
+                                                Multipliers</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/lobster_sq_02.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Rivet & Rivnut Gun</a>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-6 categorie">
-                        <div class="card text-center">
-                            <div class="card-body cards">
-                                <img class="card-img-top img-fluid"
-                                    src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_08.jpg" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn card-btn btn-lg btn-block">Electric Torque Drivers</a>
+                        <!-- Intelligent Fastening -->
+
+                        <div class="carousel-item">
+                            <div class="row product-cards">
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.intmfg.com/wp-content/uploads/2019/04/ohtake_sq_05.jpg"
+                                            alt="">
+
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Screw Counting</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/desoutter_sq_12.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Positioning Systems</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/desoutter_sq_01.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">DC Tools</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_08.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Digital Data Wrenches</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-md-4 col-6 categorie">
-                        <div class="card text-center">
-                            <div class="card-body cards">
-                                <img class="card-img-top img-fluid"
-                                    src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_08.jpg" alt="">
-                            </div>
-                            <div class="card-footer text-muted">
-                                <a href="#" class="btn card-btn btn-lg btn-block">Learn More</a>
+                        <!-- Robotic Systems -->
+
+                        <div class="carousel-item">
+                            <div class="row product-cards">
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.intmfg.com/wp-content/uploads/2019/10/sq_robotiq-2f-140_03.jpg"
+                                            alt="">
+
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Robotic Assembly</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/10/sq_robotiq-dynabrade_01.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Robotic Fabrication</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/10/sq_robotiq-3-finger_01.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Robotic Pick & Place</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/10/sq_urvisumatic_03.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Robotic Screwdriving</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 categorie">
-                        <div class="card text-center">
-                            <div class="card-body cards">
-                                <img class="card-img-top img-fluid"
-                                    src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_08.jpg" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn card-btn btn-lg btn-block">Learn More</a>
+
+                        <!-- Auditing -->
+
+                        <div class="carousel-item">
+                            <div class="row product-cards">
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_13.jpg" alt="">
+
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Lineside Torque
+                                                Checkers</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_19.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Calibration Units</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/crane_sq_13.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Calibration Carts</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/sr_sq_02.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Digital Auditing
+                                                Wrenches</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                        <!-- Accessories -->
+
+                        <div class="carousel-item">
+                            <div class="row product-cards">
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.intmfg.com/wp-content/uploads/2019/04/visumatic_sq_01.jpg"
+                                            alt="">
+
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Screw Feeding Systems</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/ohtake_sq_10.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Screw Presenters</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/eta_sq_06.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Ergonomic Arms</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/desoutter_sq_13.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Positioning Arms</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/k_sq_24.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Bits & Sockets</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 categorie">
+                                    <div class="card text-center">
+                                        <div class="card-body cards">
+                                            <img class="card-img-top img-fluid"
+                                                src="https://www.intmfg.com/wp-content/uploads/2019/04/a_sq_22.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn card-btn btn-lg btn-block">Covered & Saftey
+                                                Sockets</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
@@ -158,11 +468,12 @@
         <!-- About us Section -->
         <section class="about-us-section">
 
-            <div class="container-fluid">
+            <div class="container">
                 <h2>We are dedicated to your success</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, aut corrupti eveniet saepe
+                <h3 class="about-us">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, aut corrupti
+                    eveniet saepe
                     dolore rem repellendus molestiae magni eos itaque consectetur sed? Repellendus illo beatae veniam
-                    accusantium vel ex accusamus.</p>
+                    accusantium vel ex accusamus.</h3>
 
             </div>
 
@@ -174,11 +485,11 @@
             <div class="row">
 
                 <div class="col-lg-12">
-                    <button type="button" class="btn bottom-btn btn-lg btn-block">Contact us</button>
+                    <button type="button" class="btn bottom-btn btn-lg btn-block">CONTACT US NOW</button>
                 </div>
             </div>
 
-            <p>Integrated Manufacturing & Supply, inc.</p>
+            <p>Copyright © 2021 Integrated Manufacturing & Supply, inc. All rights reserved.</p>
 
         </section>
 
