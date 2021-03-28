@@ -40,7 +40,6 @@ h1 {
 
 .top-navbar {
     padding: 0;
-
 }
 
 .top-nav-link {
@@ -174,6 +173,16 @@ h1 {
     padding: 0 10%;
 }
 
+.footer-link {
+    font-size: large;
+    color: black;
+}
+
+.footer-link:hover {
+    background-color: #255C99;
+    color: #fff;
+}
+
 /* --------------------Detail Page-------------------------- */
 
 .detail-banner-section {
@@ -183,4 +192,17 @@ h1 {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+}
+
+@media (max-width: 700px) {
+    .header-section {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .top-navbar {
+        margin-left: 25%;
+        margin-right: 0;
+    } */
 }
