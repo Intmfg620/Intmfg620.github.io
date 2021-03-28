@@ -1,3 +1,4 @@
+/* --------------------HOME PAGE--------------------------- */
 body {
     color: #fff;
     font-family: "Oswald";
@@ -171,4 +172,15 @@ h1 {
 .about-us {
     line-height: 1.5;
     padding: 0 10%;
+}
+
+/* --------------------Detail Page-------------------------- */
+
+.detail-banner-section {
+
+    padding: 0;
+    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
