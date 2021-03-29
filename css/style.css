@@ -226,6 +226,11 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .about-us-section {
+        padding: 5% 0;
+        text-align: left;
+    }
 }
 
 @media (max-width: 990px) {
