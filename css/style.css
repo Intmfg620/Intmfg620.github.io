@@ -22,6 +22,12 @@ h1 {
     line-height: 1.5;
 }
 
+hr {
+    position: relative;
+    top: 2.5rem;
+    border-color: black;
+}
+
 /* Top Navigation Section */
 
 .header-section {
@@ -192,6 +198,11 @@ h1 {
 
 /* --------------------Detail Page-------------------------- */
 
+.content-section {
+
+    margin: 7% auto;
+}
+
 .detail-banner-section {
 
     padding: 0;
@@ -201,10 +212,25 @@ h1 {
     background-blend-mode: overlay;
 }
 
+.detail-des {
+    text-align: left;
+    font-size: large;
+    color: black;
+
+}
+
+
 @media (max-width: 700px) {
     .header-section {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media (max-width: 990px) {
+    .detail-des {
+        text-align: center;
+    }
+
 }
