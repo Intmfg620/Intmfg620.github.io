@@ -11,6 +11,7 @@ h3 {
 }
 
 h2 {
+    white-space: nowrap;
     font-family: "Oswald";
     font-weight: 700;
     line-height: 1.5;
@@ -99,6 +100,10 @@ hr {
     box-shadow: 0 8px 6px -6px black;
 }
 
+.navbar-nav {
+    width: fit-content;
+}
+
 .btm-nav-link {
     color: #fff !important;
     border-radius: 5px;
@@ -107,7 +112,7 @@ hr {
 .btm-nav-link:hover,
 .btm-nav-link:focus,
 .btm-nav-link:active {
-    background-color: #fff;
+    background-color: #fff !important;
     color: #255C99 !important;
 }
 
@@ -116,6 +121,11 @@ hr {
 }
 
 /* Categories Section */
+
+.slide-title {
+    color: black;
+    margin-bottom: 1.5rem;
+}
 
 .categories-section {
     background-color: #fff;
