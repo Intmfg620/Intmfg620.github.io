@@ -1,7 +1,8 @@
 /* --------------------HOME PAGE--------------------------- */
-body {
+body,
+h3 {
     color: #fff;
-    font-family: "Oswald";
+    font-family: "Roboto";
 }
 
 h3 {
@@ -215,7 +216,7 @@ hr {
 .detail-des {
     text-align: left;
     font-size: large;
-    color: black;
+    color: black !important;
 
 }
 
