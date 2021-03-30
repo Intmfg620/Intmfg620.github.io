@@ -264,7 +264,8 @@ hr {
     color: #fff;
     background-color: #255C99;
     width: 100%;
-
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -277,6 +278,11 @@ hr {
     .bottom-btn {
         width: fit-content;
     }
+
+    .detail-btn {
+        min-width: fit-content;
+    }
+
 
     h1,
     h2,
