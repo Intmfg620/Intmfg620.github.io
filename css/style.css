@@ -248,6 +248,10 @@ hr {
         padding: 5% 0;
     }
 
+    .bottom-btn {
+        width: fit-content;
+    }
+
     h1,
     h2,
     h3 {
