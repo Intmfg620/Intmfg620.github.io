@@ -54,6 +54,8 @@ hr {
     border-radius: 0 0 5px 5px;
     padding: 1%;
     margin-bottom: .5rem;
+    margin-right: .5rem;
+    width: fit-content;
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
@@ -62,6 +64,7 @@ hr {
 .top-nav-link {
     color: black;
     font-size: medium;
+
 }
 
 .top-nav-link:hover {
@@ -211,6 +214,7 @@ hr {
 .footer-link {
     font-size: large;
     color: black;
+    border-radius: 5px;
 }
 
 .footer-link:hover {
@@ -230,8 +234,9 @@ hr {
 /* --------------------Detail Page-------------------------- */
 
 .content-section {
+    padding-top: 0;
 
-    margin: 7% auto;
+    margin: 3% auto 10%;
 }
 
 .detail-banner-section {
@@ -247,6 +252,18 @@ hr {
     text-align: left;
     font-size: large;
     color: black !important;
+
+}
+
+.detail-btn-section {
+    text-align: center;
+    margin: 7% auto 0;
+}
+
+.detail-btn {
+    color: #fff;
+    background-color: #255C99;
+    width: 100%;
 
 }
 
@@ -271,6 +288,8 @@ hr {
     .about-us-section h3 {
         font-size: large;
     }
+
+
 }
 
 @media (max-width: 990px) {
