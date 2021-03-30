@@ -243,15 +243,20 @@ hr {
 
 
 @media (max-width: 700px) {
-    /* .header-section {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
     .about-us-section {
         padding: 5% 0;
-        text-align: left;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: x-large;
+    }
+
+    .about-us-section h2,
+    .about-us-section h3 {
+        font-size: large;
     }
 }
 
