@@ -279,28 +279,26 @@ hr {
         width: fit-content;
     }
 
-    .detail-btn {
-        min-width: fit-content;
-    }
-
-
     h1,
     h2,
     h3 {
         font-size: x-large;
     }
 
-
     .about-us-section h3 {
         font-size: large;
     }
-
 
 }
 
 @media (max-width: 990px) {
     .detail-des {
         text-align: center;
+    }
+
+    .detail-btn {
+        min-width: fit-content;
+        margin: 1% auto;
     }
 
 }
