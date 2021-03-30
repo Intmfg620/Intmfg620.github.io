@@ -33,7 +33,7 @@ hr {
 
 .header-section {
     border-radius: 0 0 5px 5px;
-    padding: .1rem;
+    padding: .1rem .2rem;
     margin-right: 0;
     margin-left: auto;
     margin-bottom: 5%;
@@ -216,6 +216,15 @@ hr {
 .footer-link:hover {
     background-color: #255C99;
     color: #fff;
+}
+
+.social-icon {
+    color: black;
+    margin: 1% .5%;
+}
+
+.social-icon:hover {
+    color: #255C99;
 }
 
 /* --------------------Detail Page-------------------------- */
