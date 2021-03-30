@@ -168,8 +168,10 @@ hr {
 }
 
 .card-btn:hover,
-.bottom-btn:hover {
-    background-color: #666A86;
+.bottom-btn:hover,
+.detail-btn:hover {
+    background-color: #1C4473;
+    color: #fff;
 }
 
 .card-footer {
@@ -268,6 +270,7 @@ hr {
     margin-left: auto;
 }
 
+/* Media Querys */
 
 @media (max-width: 700px) {
 
@@ -290,6 +293,7 @@ hr {
     }
 
 }
+
 
 @media (max-width: 990px) {
     .detail-des {
