@@ -11,7 +11,6 @@ h3 {
 }
 
 h2 {
-    white-space: nowrap;
     font-family: "Oswald";
     font-weight: 700;
     line-height: 1.5;
@@ -33,12 +32,11 @@ hr {
 /* Top Navigation Section */
 
 .header-section {
-    background-color: #fff;
     border-radius: 0 0 5px 5px;
     padding: .1rem;
     margin-right: 0;
     margin-left: auto;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     padding: 0;
     width: max-content;
     -webkit-box-shadow: 0 8px 6px -6px black;
@@ -46,8 +44,19 @@ hr {
     box-shadow: 0 8px 6px -6px black;
 }
 
+.s-button {
+    margin-left: .5rem;
+    background-color: #fff !important;
+}
+
 .top-navbar {
-    padding: 0;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 1%;
+    margin-bottom: .5rem;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .top-nav-link {
@@ -66,9 +75,9 @@ hr {
 
 .banner-section {
     padding: 0;
-    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background: url(/images/manu-tool.jpeg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-blend-mode: overlay;
 }
 
@@ -81,10 +90,12 @@ hr {
 .banner-row {
     margin-top: 0%;
     margin-bottom: 0;
+    text-shadow: 0 1px 1px black;
+
 }
 
 .hero-des {
-    margin: 3% auto 0;
+    margin: 1% auto 0;
 }
 
 /* Bottom Navigation Section */
@@ -217,9 +228,9 @@ hr {
 .detail-banner-section {
 
     padding: 0;
-    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background: url(/images/manu-tool.jpeg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-blend-mode: overlay;
 }
 
@@ -232,11 +243,11 @@ hr {
 
 
 @media (max-width: 700px) {
-    .header-section {
+    /* .header-section {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     .about-us-section {
         padding: 5% 0;
