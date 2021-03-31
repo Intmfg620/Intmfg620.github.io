@@ -271,6 +271,44 @@ hr {
     margin-left: auto;
 }
 
+.category-vid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    background: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.category-vid.active {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.category-vid iframe {
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #fff;
+    filter: invert(1);
+}
+
 /* Media Querys */
 
 @media (max-width: 700px) {
@@ -291,6 +329,18 @@ hr {
 
     .about-us-section h3 {
         font-size: large;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .category-vid iframe {
+        max-width: 90%;
+    }
+
+    .category-vid {
+        max-width: 90%;
     }
 
 }

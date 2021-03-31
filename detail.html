@@ -131,9 +131,22 @@
                                         </div>
 
                                         <div class="col-md-6">
-                                            <button type="button" class="btn detail-btn btn-lg text-nowrap">See
+                                            <button href="#" onclick="toggle()" type="button"
+                                                class="btn detail-btn btn-lg text-nowrap ">See
                                                 Video</button>
+
                                         </div>
+
+                                    </div>
+
+                                    <div class="category-vid">
+                                        <p class="close" onclick="toggle()"><i class="fas fa-times fa-md"></i></p>
+
+                                        <iframe src="https://www.youtube.com/embed/QkeEu2d1K9k" width="560" height="315"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+
                                     </div>
 
                                 </div>
@@ -250,6 +263,7 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
                 crossorigin="anonymous"></script>
+            <script src="/video.js"></script>
 
         </footer>
 
