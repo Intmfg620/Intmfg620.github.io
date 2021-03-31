@@ -304,9 +304,8 @@ hr {
     position: absolute;
     top: 5px;
     right: 5px;
-    cursor: pointer;
     color: #fff;
-    filter: invert(1);
+
 }
 
 /* Media Querys */
