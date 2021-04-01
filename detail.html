@@ -132,7 +132,7 @@
 
                                         <div class="col-md-6">
                                             <button href="#" onclick="toggle()" type="button"
-                                                class="btn detail-btn btn-lg text-nowrap ">See
+                                                class="btn detail-btn btn-lg text-nowrap">See
                                                 Video</button>
 
                                         </div>
@@ -140,9 +140,11 @@
                                     </div>
 
                                     <div class="category-vid">
-                                        <p class="close" onclick="toggle()"><i class="fas fa-times fa-md"></i></p>
+                                        <p id="stop-button" class="close stop-button" onclick="toggle()"><i
+                                                class="fas fa-times fa-md"></i></p>
 
-                                        <iframe src="https://www.youtube.com/embed/QkeEu2d1K9k" width="560" height="315"
+                                        <iframe id="player" width="560" height="315"
+                                            src="https://www.youtube.com/embed/QkeEu2d1K9k?enablejsapi=1"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
@@ -188,6 +190,18 @@
                                             <button type="button" class="btn detail-btn btn-lg text-nowrap">See
                                                 Video</button>
                                         </div>
+                                    </div>
+
+                                    <div class="category-vid">
+                                        <p class="close stop-button" onclick="toggle()"><i
+                                                class="fas fa-times fa-md"></i></p>
+
+                                        <iframe id="player2" width="560" height="315"
+                                            src="https://www.youtube.com/embed/QkeEu2d1K9k?enablejsapi=1"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+
                                     </div>
 
                                 </div>
