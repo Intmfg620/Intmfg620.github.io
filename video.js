@@ -1,3 +1,5 @@
+// -------------------- YouTube Video Management----------------
+
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -6,7 +8,6 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 var player;
-var players = document.g
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
@@ -31,7 +32,4 @@ function toggle() {
     onYouTubeIframeAPIReady()
 
     category_vid.classList.toggle("active");
-    // stopVideo();
-
-
 }
