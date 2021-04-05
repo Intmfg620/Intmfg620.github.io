@@ -33,3 +33,51 @@ function toggle() {
 
     category_vid.classList.toggle("active");
 }
+
+
+
+// -------------------- Carousel Management----------------
+
+var categorie = document.querySelectorAll('.btm-nav-link');
+var slides = document.querySelectorAll('.carousel-item');
+
+function categorieRemoveActive() {
+    for (var i = 0; i < slides.length; i++) {
+
+        if (slides[i].classList.contains('active')) {
+
+            categorie[i].classList.remove('active');
+        }
+    }
+}
+
+function categorieActive() {
+    for (var i = 0; i < slides.length; i++) {
+
+        if (slides[i].classList.contains('active')) {
+            categorie[i].classList.add('active');
+        }
+    }
+
+}
+
+$('#categories-slide').on('slide.bs.carousel', function () {
+    categorieRemoveActive();
+
+    setTimeout(function () {
+
+        categorieActive();
+
+    }, 650);
+});
+
+
+$('#detail-des-slide').on('slide.bs.carousel', function () {
+    categorieRemoveActive();
+
+    setTimeout(function () {
+
+        categorieActive();
+
+    }, 650);
+});
