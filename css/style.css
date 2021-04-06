@@ -184,12 +184,25 @@ h1 {
     margin: 0 0 5%;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+    filter: invert(100%);
+}
+
+.carousel-control-next {
+    margin: -20%;
+}
+.carousel-control-prev {
+    margin: -20%;
+}
+
 /* About us section */
 
 .about-us-section {
     padding: 5%;
     text-align: center;
-    background-color: #255C99;
+    background-color: #255C99 !important;
 }
 
 /* Footer Section */
