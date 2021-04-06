@@ -191,10 +191,10 @@ h1 {
 }
 
 .carousel-control-next {
-    margin: -20%;
+    margin: -10%;
 }
 .carousel-control-prev {
-    margin: -20%;
+    margin: -10%;
 }
 
 /* About us section */
@@ -345,6 +345,7 @@ h1 {
 
 }
 
+
 @media (max-width: 990px) {
 
     .category-vid iframe {
@@ -353,6 +354,16 @@ h1 {
 
     .category-vid {
         max-width: 90%;
+    }
+
+    .carousel-control-next{
+
+        display: none;
+    }
+
+    .carousel-control-prev{
+        display: none;
+
     }
 
 }
