@@ -26,28 +26,36 @@ h1 {
 
 /* Top Navigation Section */
 
+
+
 .header-section {
-    border-radius: 0 0 5px 5px;
-    padding: .1rem .2rem;
-    margin-right: 0;
+    /* padding: .1rem .2rem; */
+    /* margin-right: 0;
     margin-left: auto;
-    margin-bottom: 5%;
-    padding: 0;
-    width: max-content;
+    margin-bottom: 0%;
+    margin-top: 0; */
+    /* width: fit-content; */
+    display: inline-block;
 }
 
-.s-button {
-    margin-left: .5rem;
-    color: #fff;
-    border-style: none !important;
+.headNlogo{
+    text-align: center;
+    background-color: #050517;
+    margin-bottom: 5%; 
+    padding: 0;  
 }
+#detail{
+
+    margin-bottom: 15%; 
+
+}
+
 
 .top-navbar {
-    border-radius: 0 0 5px 5px;
-    padding: 1%;
-    margin-bottom: .5rem;
-    margin-right: 1rem;
-    width: fit-content;
+    /* border-radius: 0 0 5px 5px; */
+    padding: 0 ;
+    display: inline-block;
+   ;
 }
 
 .top-nav-link {
@@ -56,12 +64,28 @@ h1 {
 
 }
 
-.top-nav-link:hover,
-.s-button:hover {
-    background-color: #050517;
-    color: #fff;
+.top-nav-link:hover{
+    /* background-color: #050517; */
+    color: #cf5c36;
     border-radius: 5px 5px 5px 5px;
     opacity: 90%;
+}
+
+.navbar-brand{
+    color: #cf5c36;
+    font-family: "Oswald" ;
+    line-height: 1.5;
+    font-weight: 800;
+    font-size: x-large;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.fa-tools, .navbar-brand a{
+    color: #cf5c36;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
 }
 
 
@@ -70,16 +94,16 @@ h1 {
 
 .banner-section {
     padding: 0;
-    background: url(/images/manu-tool.jpeg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
     background-size: cover;
     background-position: left;
-    background-blend-mode: overlay;
+    background-blend-mode:overlay;
 }
 
 .title {
     margin-top: 5%;
     background-color: #050517;
-    opacity: 90%;
+    /* opacity: 90%; */
 }
 
 .banner-row {
@@ -90,17 +114,28 @@ h1 {
 }
 
 .hero-des {
-    margin: 1% auto 0;
+    margin: 0% auto 0;
     opacity: 80%;
+ 
+}
+
+.logo-name{
+    color: #cf5c36;
+    text-shadow: 0 .05rem .05rem #fff;
+    font-family: "Oswald";
+    line-height: 1.5;
+    font-weight: 800;
+
 }
 
 .hero-des h2,
 .hero-des h1 {
     border-radius: 3px 3px 3px 3px;
     padding: 0 1%;
-    color: #050517;
-    background-color: #fff;
+    color: #fff;
+    /* background-color: #050517; */
     display: inline;
+    text-shadow: 0 1px 1px #050517;
 }
 
 /* Bottom Navigation Section */
@@ -260,7 +295,7 @@ h1 {
 .detail-banner-section {
 
     padding: 0;
-    background: url(/images/manu-tool.jpeg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
+    background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
     background-size: cover;
     background-position: left;
     background-blend-mode: overlay;
@@ -367,11 +402,6 @@ h1 {
         display: none;
 
     }
-
-}
-
-
-@media (max-width: 990px) {
     .detail-des {
         text-align: center;
     }
@@ -381,4 +411,10 @@ h1 {
         margin: 1% auto;
     }
 
+
+    /* .navbar-brand{
+        font-size: large;
+    } */
 }
+
+
