@@ -38,24 +38,25 @@ h1 {
     display: inline-block;
 }
 
-.headNlogo{
+.headNlogo {
     text-align: center;
     background-color: #050517;
-    margin-bottom: 5%; 
-    padding: 0;  
+    margin-bottom: 5%;
+    padding: 0;
 }
-#detail{
 
-    margin-bottom: 15%; 
+#detail {
+
+    margin-bottom: 15%;
 
 }
 
 
 .top-navbar {
     /* border-radius: 0 0 5px 5px; */
-    padding: 0 ;
+    padding: 0;
     display: inline-block;
-   ;
+    ;
 }
 
 .top-nav-link {
@@ -64,27 +65,28 @@ h1 {
 
 }
 
-.top-nav-link:hover{
+.top-nav-link:hover {
     /* background-color: #050517; */
     color: #cf5c36;
     border-radius: 5px 5px 5px 5px;
     opacity: 90%;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #cf5c36;
-    font-family: "Oswald" ;
+    font-family: "Oswald";
     line-height: 1.5;
     font-weight: 800;
     font-size: x-large;
     text-shadow: 0 1px 1px #fff;
 }
 
-.fa-tools, .navbar-brand a{
+.fa-tools,
+.navbar-brand a {
     color: #cf5c36;
 }
 
-.navbar-brand a:hover{
+.navbar-brand a:hover {
     text-decoration: none;
 }
 
@@ -97,7 +99,7 @@ h1 {
     background: url(/images/manu-hi-res.jpg), linear-gradient(rgba(0, 0, 0, 0.5), gray);
     background-size: cover;
     background-position: left;
-    background-blend-mode:overlay;
+    background-blend-mode: overlay;
 }
 
 .title {
@@ -116,10 +118,10 @@ h1 {
 .hero-des {
     margin: 0% auto 0;
     opacity: 80%;
- 
+
 }
 
-.logo-name{
+.logo-name {
     color: #cf5c36;
     text-shadow: 0 .05rem .05rem #fff;
     font-family: "Oswald";
@@ -164,7 +166,7 @@ h1 {
 .btm-nav-link.active {
     /* background-color: #fff !important; */
     color: #cf5c36 !important;
-    
+
 }
 
 .navbar-toggler {
@@ -230,6 +232,7 @@ h1 {
 .carousel-control-next {
     margin: -10%;
 }
+
 .carousel-control-prev {
     margin: -10%;
 }
@@ -358,6 +361,41 @@ h1 {
 
 }
 
+/* --------------------Blog Page-------------------------- */
+
+.blog-post {
+    color: black;
+    margin: 1% 20%;
+    padding: 1%;
+}
+
+.blog-link:hover {
+
+    background-color: black;
+    color: #fff;
+
+}
+
+.metabox {
+    background-color: #050517;
+    border-radius: 3px;
+    padding: 1%;
+    display: inline-block;
+    margin-bottom: 1%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
+}
+
+.metabox a {
+    font-size: small;
+    text-decoration: none;
+    color: #fff;
+}
+
+.metabox a:hover {
+    color: #cf5c36;
+}
+
+
 /* Media Querys */
 
 @media (max-width: 700px) {
@@ -380,6 +418,10 @@ h1 {
         font-size: large;
     }
 
+    .blog-post {
+        text-align: center;
+        margin: 1% 10%;
+    }
 }
 
 
@@ -393,15 +435,16 @@ h1 {
         max-width: 90%;
     }
 
-    .carousel-control-next{
+    .carousel-control-next {
 
         display: none;
     }
 
-    .carousel-control-prev{
+    .carousel-control-prev {
         display: none;
 
     }
+
     .detail-des {
         text-align: center;
     }
@@ -411,10 +454,4 @@ h1 {
         margin: 1% auto;
     }
 
-
-    /* .navbar-brand{
-        font-size: large;
-    } */
 }
-
-
